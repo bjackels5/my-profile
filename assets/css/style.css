@@ -119,6 +119,7 @@ header nav ul li a:hover {
     width: 80%;
     flex-wrap: wrap;
     margin: 0 auto;
+    scroll-margin-top: 5em;
 }
 
 .work-title {
