@@ -10,6 +10,7 @@
 
     header h1 {
         width: 100%;
+        display:none;
         text-align: center;
     }
 
@@ -43,7 +44,7 @@
     
     .hero-description h2 {
         font-size: 4.0vw;
-        margin-top: 5%;
+        margin-top: 2.5%;
     }
 
     .hero p {
@@ -53,7 +54,6 @@
     }
 
     .hero-photo {
-        /* margin-top: 2.5%; */
         padding: 5% 10%; 
     }
 
@@ -110,11 +110,21 @@
 
 /* MEDIA QUERY for tablets and smaller */
 @media screen and (max-width: 768px) {
-    
 }
 
 /* MEDIA QUERY for mobile phones and smaller */
 @media screen and (max-width: 575px) {
+    header nav ul li a {
+        font-size: 3vw;
+    }
+    .hero-description h2 {
+        font-size: 4.5vw;
+    }
+
+    .hero p {
+        font-size: 4.0vw;
+    }
+   
 }
 
 
