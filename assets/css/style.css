@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    padding: 10px 35px;
+    padding: 0.5%;
     background-color: var(--dark-color);
     color: var(--light-color);
     display: flex;
@@ -30,11 +30,10 @@ header {
 }
 
 header h1 {
-    padding: 10px;
+    padding: .5%;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-style: oblique;
-    margin: 0;
 }
 
 header a {
@@ -43,8 +42,7 @@ header a {
 }
 
 header nav {
-    padding: 15px;
-    margin: 0;
+    padding: 1%;
 }
 
 header nav ul {
@@ -60,7 +58,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    padding: 2px 10px;
+    padding: .25% 10px;
     font-weight: lighter;
     font-size: 1vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -69,7 +67,7 @@ header nav ul li a {
 header nav ul li a:hover {
     background: var(--light-color);
     color: var(--dark-color);
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .hero {
@@ -116,7 +114,7 @@ header nav ul li a:hover {
 
 .hero p {
     font-size: 1.3vw;
-    padding-bottom: 0.5%;
+    padding-bottom: 1.5%;
     text-align: justify;
 }
 
@@ -126,6 +124,7 @@ header nav ul li a:hover {
     width: 80%;
     flex-wrap: wrap;
     margin: 0 auto;
+    /* padding: 3%; */
 }
 
 .work-title {
@@ -134,6 +133,7 @@ header nav ul li a:hover {
 
 .work-title h1 {
     text-align: right;
+    font-size: 2.0vw;
 }
 
 .work-projects {
@@ -144,7 +144,7 @@ header nav ul li a:hover {
 
 .work-project {
     margin: 1.5% 1.5%;
-    flex: 25%;
+    flex: 30%;
 }
 
 .work-projects img {
@@ -157,27 +157,30 @@ header nav ul li a:hover {
     margin: 0 1.5% 1.5% 1.5%;
 }
 
-/*
-.work-project:nth-child(1) img {
-}
-*/
 .contact-me {
-   /* list-style: none; */
-    width: 80;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 20px auto;
+    margin: 5% auto;
+    border: solid 3px var(--dark-color);
+    box-shadow: 0 0 10px var(--shadow-color);
+    padding: 1.5%;
+}
+
+.contact-me h1 {
+    font-size: 2vw;
 }
 
 .contact-item {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 1.5vw;
 }
 
 .contact-me img {
-    width: 30px;
+    width: 50px;
 }
 
 

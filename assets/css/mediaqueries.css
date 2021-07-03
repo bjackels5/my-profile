@@ -1,6 +1,7 @@
 /* media queries so the website will be responsive */
 /* MEDIA QUERY for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
+    
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -13,14 +14,15 @@
     }
 
     header nav ul {
-        margin-top: 20px;
+        margin-top: 0;
         width: 100%;
         justify-content: center;
     }
-
+/*
     header nav ul li a {
         font-size: 20px;
     }
+*/
 
     .hero {
         align-items: flex-start;
@@ -47,7 +49,8 @@
     }
 
     .hero-photo {
-        margin-top: .5%; 
+        /* margin-top: 2.5%; */
+        padding: 5% 10%; 
     }
 
     .my-work {
@@ -74,11 +77,34 @@
         flex: 100%;
     }
 
+    .contact-me {
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-me h1 {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-bottom: double 3px var(--dark-color);
+    }
+
+    .contact-item {
+        margin-top: 2.5%;
+        width: 40%;
+        font-size: 2.0vw;
+    }
+    
+    .contact-me img {
+            margin-top: 2.5%;
+    }
 }   
 
 
 /* MEDIA QUERY for tablets and smaller */
 @media screen and (max-width: 768px) {
+    /*
     section {
         padding: 30px 15px;
     }
@@ -104,6 +130,7 @@
     .step-text {
         flex: 100%;
     }
+    */
 }
 
 /* MEDIA QUERY for mobile phones and smaller */
