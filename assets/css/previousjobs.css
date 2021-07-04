@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root { /* set global colors */
+    --dark-color: #3d4167;
+    --light-color: #e5e8ff;    
+    --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    padding: 2.5%;
+    color: var(--dark-color);
+    background-color:var(--light-color);
+}
+
+.job {
+    margin: 2.5%;
+}
+
+.job ul {
+    padding-left: 2%;
+}
+
+h2 {
+    font-size: 1.25vw;
+}
+
+p li {
+    font-size: 1vw;
+}

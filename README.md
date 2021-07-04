@@ -26,6 +26,7 @@ Our Portfolio had the following minimum requirements:
 ## Additional Work
 I included a few things that weren't specifically required:
 * A button to download my resume
+* The work section looked sad with all those placeholders, so added some images from previous jobs and linked to another html that has a brief description of each of my previous jobs. I didn't put a whole lot of effort into that extra html file since it will all get replaced as I have more projects to add to this section. 
 * The menu bar sticks to the top of the page
 * The first item in the menu bar, my name, disappears in smaller sizes
 ---
