@@ -35,6 +35,7 @@
             </nav>
         </header>
         <section class="body-inside"> <!-- I want the entire body, except for the header and footer, to have a background image -->
+            <!-- Start of Hero / About Me Section -->
             <section class="hero" id="about-me">
                 <div class="hero-description">
                     <h1>Meet Brenda Jackels</h1>
@@ -65,9 +66,14 @@
                     <img src="./assets/images/Brenda2021.jpg" alt="Brenda Jackels"/>
                 </div>
             </section>
+            <!-- End of Hero / About Me -->
             
+            <!--
+                Start of the section about my projects / work history. It's pretty empty, and using a single placeholder image for all the future stuff was boring,
+                so I made some images for my previous work history and linked it to a page that contains a brief description of each job.
+            -->
             <section class="section-layout my-work" id="my-work">
-                <div class="section-title-right">
+                <div class="section-title">
                     <h1>My Projects</h1>
                 </div>
                 <div class="section-items work-projects">
@@ -114,21 +120,21 @@
                     </div>
 
                 </div>
-
-                <!-- 
-                    use RunBuddy as the main project. For past projects, use horiseon, put stuff
-                    about working at IBM, SSA, interface, John Deere HealthCare, and
-                    raising a family
-                -->
             </section>
+            <!-- End of my project / work history -->
 
+            <!-- Start of Contact Me section -->
             <section class="section-layout contact-me" id="contact-me">
-                <div class="section-title-right">
+                <div class="section-title">
                     <h1>Contact Me</h1>
                 </div>    
                 <div class="section-items contact-items">
                     <p class="contact-item">(813) 123-4567</p>
                     <a class="contact-item" href="mailto:fakeemailaddress@fakemail.com">fakeemailaddress@fakeemail.com</a>
+                    <!--
+                        I'm sure there's a way to link to these images directly on their respective company's websites,
+                        but I don't think we've learned that yet so I copied the official logos to this projects images directory
+                    -->
                     <a class="contact-item" href="https://www.linkedin.com/in/brenda-jackels-105/" target="_blank" alt="Linked In">
                         <img src="./assets/images/LI-In-Bug.png" />
                     </a>
@@ -137,7 +143,8 @@
                     </a>
                 </div>
             </section>
-        </section> <!-- body-inside -->
+            <!-- End of Contact Me section -->
+        </section> <!-- end of body-inside -->
         <footer>
             <h2>Made by <span class="my-name">Brenda Jackels</span> July 2021 &copy; Brenda Jackels</h2>
         </footer>

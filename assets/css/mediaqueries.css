@@ -26,7 +26,6 @@
         font-size: 2vw;
     }
 
-
     .hero {
         align-items: flex-start;
         width: 90%;
@@ -59,7 +58,7 @@
         padding: 5% 10%; 
     }
 
-    .section-title-right {
+    .section-title {
         width: 100%;
         margin-left: 10%;
         margin-right: 10%;

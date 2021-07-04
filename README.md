@@ -15,12 +15,12 @@ This second challenge for the Coding Bootcamp is to create a portfolio page for 
 <a id="requirements"></a>
 ## Requirements
 Our Portfolio had the following minimum requirements:
-* presented with the my name, a recent photo or avatar, and links to sections about me, my work, and how to contact me
-* clicking the navigation links should scroll to the corresponding section
-* the section showcasing my work should have titled images of my applications
-* the first application should be presented larger
-* clicking on the application image should take me to that deployed application
-* the portfolio should work when the page is resized or viewd on different screens and devices
+* Present my name, a recent photo or avatar, and links to sections about me, my work, and how to contact me
+* Clicking the navigation links should scroll to the corresponding section
+* The section showcasing my work should have titled images of my applications
+* The first application should be presented larger
+* Clicking on the application image should take me to that deployed application
+* The portfolio should work when the page is resized or viewed on different screens and devices
 ---
 <a id="additionalWork"></a>
 ## Additional Work
@@ -37,6 +37,7 @@ I included a few things that weren't specifically required:
 * I still have much to learn about flex layouts, but I've gotten a good start with this project.
 * I re-learned that often times instructors don't have the answer, but they know how to find the answer. Hopefully as I get better at this, I'll be able to find the answer myself. Currently, I sometimes don't know what terms to use when searching to get a good answer.
 * I learned that I still have a lot to learn about correct image handling, but I think I have the basics down now.
+* Turns out I do not like the look of shadowed text, so I didn't use it anywhere.
 ---
 ## Portfolio Screenshot
 <a id="webImage"></a>
