@@ -44,8 +44,8 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* background-image: url("../images/bluebkgnd.jpg"); */
-    /* background-size: cover; */
+    background-image: url("../images/bluebkgnd.jpg");
+    background-size: cover;
 }
 
 header h1 {
@@ -87,6 +87,26 @@ header nav ul li a:hover {
     background: var(--light-color);
     color: var(--dark-color);
     border-radius: 10px;
+}
+
+footer {
+    padding: 0.75%;
+    color: var(--light-color);
+    background-image: url("../images/bluebkgnd.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: .75vw;
+}
+
+.my-name {
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.body-inside {
+    background-image: url("../images/bluebkgnd1.jpg");
+    background-size: cover;
+    padding-bottom: 2.5%;
 }
 
 .hero {
@@ -132,7 +152,8 @@ header nav ul li a:hover {
     display: flex;
     width: 90%;
     flex-wrap: wrap;
-    margin: 5% auto;
+   /* margin: 5% auto; */
+    margin: 0 auto;
     padding: 1.5%;
 }
 
@@ -164,6 +185,7 @@ header nav ul li a:hover {
     justify-content: space-between;
     border: solid 3px var(--dark-color);
     box-shadow: 0 0 10px var(--shadow-color);
+    /* margin-bottom: 0; */
 }
 
 .contact-item {
