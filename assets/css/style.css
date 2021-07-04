@@ -15,6 +15,25 @@ body {
     background-color:var(--light-color);
 }
 
+.section-title-right {
+    font-size: 1.5vw;
+    border-right: double 10px var(--dark-color);
+    padding-right: 2.0%;
+    text-align: right;
+    flex: 1;
+}
+
+.hero-description h1 {
+    font-size: 2vw;
+    padding-bottom: 0.5%;
+}
+
+.section-items {
+    flex: 6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 header {
     padding: 0.5%;
     background-color: var(--dark-color);
@@ -79,6 +98,7 @@ header nav ul li a:hover {
     padding-bottom: 2.5%;
     padding-top: 2.5%;
     margin: 0 auto;
+    scroll-margin-top: 2.5em;
 }
 
 .hero-description {
@@ -86,11 +106,6 @@ header nav ul li a:hover {
     flex: 3;
     padding-right: 2.5%;
     text-align: right;
-}
-
-.hero h1 {
-    font-size: 2vw;
-    padding-bottom: 0.5%;
 }
 
 .hero-photo {
@@ -113,28 +128,21 @@ header nav ul li a:hover {
     text-align: justify;
 }
 
-.my-work {
+.section-layout {
     display: flex;
-    justify-content: center;
-    width: 80%;
+    width: 90%;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 5% auto;
+    padding: 1.5%;
+}
+
+.my-work {
+    justify-content: center;
     scroll-margin-top: 5em;
 }
 
-.work-title {
-    flex: 1;
-}
-
-.work-title h1 {
-    text-align: right;
-    font-size: 2.0vw;
-}
-
-.work-projects {
-    flex: 6;
-    display: flex;
-    flex-wrap: wrap;
+.contact-items {
+    justify-content: space-evenly;
 }
 
 .work-project {
@@ -142,7 +150,7 @@ header nav ul li a:hover {
     flex: 30%;
 }
 
-.work-projects img {
+.work-project img {
     width: 100%;
     box-shadow: 0 0 10px var(--shadow-color);
 }
@@ -153,21 +161,9 @@ header nav ul li a:hover {
 }
 
 .contact-me {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    margin: 5% auto;
     border: solid 3px var(--dark-color);
     box-shadow: 0 0 10px var(--shadow-color);
-    padding: 1.5%;
-}
-
-.contact-me h1 {
-    font-size: 2vw;
-    border-right: double 10px var(--dark-color);
-    padding-right: 2.0%;
 }
 
 .contact-item {
