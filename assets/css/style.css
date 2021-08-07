@@ -45,6 +45,7 @@ header a {
 /* Start navigation styling */
 header nav {
     padding: 1%;
+    width: 100%;
 }
 
 header nav ul {
