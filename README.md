@@ -1,6 +1,8 @@
 # My Portfolio
 This second challenge for the Coding Bootcamp is to create a portfolio page for ourselves. This project was created from scratch. I left some placeholders to display future work as well as for my resume. I'll add my actual resume as I get closer to finishing the bootcamp.
 
+Update #1: Added the first bootcamp group project to my projects.
+
 [Requirements](#requirements)
 
 [Additional Work Done](#additionalWork)
@@ -8,6 +10,8 @@ This second challenge for the Coding Bootcamp is to create a portfolio page for 
 [What I Learned](#whatILearned)
 
 [Portfolio Screenshot](#webImage)
+
+[Portfolio Link](#portfolioURL)
 
 [Contact Me](#contactMe)
 
@@ -44,6 +48,13 @@ I included a few things that weren't specifically required:
 ![Brenda Jackels](./assets/images/PortfolioScreenshot.png)
 
 ---
+
+## Portfolio URL
+<a id="portfolioURL"></a>
+[Brenda Jackels](https://bjackels5.github.io/my-profile/)
+
+---
 <a id="contactMe"></a>
+
 ## Contact Me
 You can reach me, Brenda Jackels, at bjackels5@gmail.com.
