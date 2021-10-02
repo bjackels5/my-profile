@@ -45,7 +45,7 @@ I included a few things that weren't specifically required:
 ---
 ## Portfolio Screenshot
 <a id="webImage"></a>
-![Brenda Jackels](./assets/images/PortfolioScreenshot.png)
+![Brenda Jackels](./assets/images/PortfolioScreenshot2.png)
 
 ---
 
